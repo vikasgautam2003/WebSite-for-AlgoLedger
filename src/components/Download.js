@@ -68,7 +68,10 @@ export default function Download() {
 
         {/* CTA */}
         <motion.a
-          href="/downloads/AlgoLedger.exe"
+          href="https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker/releases/download/v1.0.0/AlgoLedger.exe"
+
+  download
+  type="application/octet-stream"
           whileHover={{
             y: -4,
             backgroundColor: "#fff",
