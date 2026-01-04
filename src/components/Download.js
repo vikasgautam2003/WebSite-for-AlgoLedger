@@ -61,14 +61,14 @@ export default function Download() {
             marginBottom: "4.5rem"
           }}
         >
-          <span>Version 1.0</span>
+          <span>Version 2.0</span>
           <span>Windows</span>
           <span>Offline-first</span>
         </div>
 
         {/* CTA */}
         <motion.a
-          href="https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker/releases/download/v1.0.0/AlgoLedger.exe"
+          href="https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker/releases/download/v2.0.0/AlgoLedger.exe"
 
   download
   type="application/octet-stream"

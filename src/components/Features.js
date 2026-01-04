@@ -167,9 +167,7 @@ export default function Features() {
                 fontSize: "1rem"
               }}
             >
-              <li>
-                — Fast global search by problem title or keyword
-              </li>
+              
               <li>
                 — Topic and difficulty-based filtering
               </li>
