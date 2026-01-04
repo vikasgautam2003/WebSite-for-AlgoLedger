@@ -1,16 +1,18 @@
-import Lenis from "@studio-freight/lenis";
-
 export function initSmoothScroll() {
-  const lenis = new Lenis({
-    duration: 1.1,
-    smoothWheel: true,
-    smoothTouch: false
-  });
+  if (typeof window === "undefined") return;
 
-  function raf(time) {
-    lenis.raf(time);
+  import("@studio-freight/lenis").then(({ default: Lenis }) => {
+    const lenis = new Lenis({
+      duration: 1.1,
+      smoothWheel: true,
+      smoothTouch: false
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
     requestAnimationFrame(raf);
-  }
-
-  requestAnimationFrame(raf);
+  });
 }
