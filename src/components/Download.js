@@ -68,7 +68,7 @@ export default function Download() {
 
         {/* CTA */}
         <motion.a
-          href="https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker/releases/download/v2.0.0/AlgoLedger.exe"
+          href="https://github.com/vikasgautam2003/AlgoLedger-App---Your-DSA-Progress-Tracker/releases/download/v3.0.0/AlgoLedger.exe"
 
   download
   type="application/octet-stream"
