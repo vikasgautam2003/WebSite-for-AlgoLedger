@@ -61,7 +61,7 @@ export default function Download() {
             marginBottom: "4.5rem"
           }}
         >
-          <span>Version 2.0</span>
+          <span>Version 3.0</span>
           <span>Windows</span>
           <span>Offline-first</span>
         </div>
